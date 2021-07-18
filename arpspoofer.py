@@ -86,7 +86,7 @@ def get_windows_interfaces():
     return list_interfaces
 
 def print_counter(counter):
-    print(f'\r[+] Packets sent: {str(counter)}', end="")  # PYTHON 3 Dynamic print
+    print(f'\r[+] Packets sent: {str(counter)} ', end="")  # PYTHON 3 Dynamic print
     sys.stdout.flush()        
 
 
